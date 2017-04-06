@@ -1,0 +1,124 @@
+.block-cakes {
+    background: #fdfcfa;
+    text-align: center;
+    padding: 105px 0;
+}
+
+.block-cakes__message, .block-cakes__logo {
+    display: inline-block;
+    width: 628px;
+    vertical-align: top;
+}
+
+.block-cakes__header {
+    padding-bottom: 20px;
+}
+
+.block-cakes__header_size_l {
+    font-size: 48px;
+    color: #56534c;
+}
+
+.block-cakes__header-description {
+    padding-bottom: 70px;
+}
+
+.block-cakes__header-description_size_s {
+    font-size: 14px;
+    color: #a47d5e;
+    text-transform: uppercase;
+}
+
+.block-cakes__description {
+    width: 490px;
+    margin: 0 auto 45px;
+    letter-spacing: 1px;
+}
+
+.block-cakes__description_size_xs {
+    font-size: 14px;
+    color: #56534c;
+    line-height: 24px;
+}
+
+.block-cakes__gallery-item {
+    margin: 8px;
+    width: 295px;
+    height: 250px;
+    display: inline-block;
+}
+
+.block-cakes__logo {
+    position: relative;
+}
+
+.block-cakes__header-gallery {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+}
+
+.block-cakes__title-gallery {
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.block-cakes__title-gallery_size_l {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #c9b176;
+}
+
+.block-cakes__post_size_xl {
+    font-size: 24px;
+    color: #56534c;
+}
+
+.block-cakes__name {
+    border-bottom: 1px solid #d7d5ca;
+    border-top: 1px solid #d7d5ca;
+    width: 111px;
+    padding: 20px 22px;
+    display: inline-block;
+}
+
+.block-cakes__name_size_m {
+    font-size: 24px;
+    color: #56534c;
+}
+
+.block-cakes__profile {
+    margin: 50px 0 25px;
+}
+
+.block-cakes__user-img {
+    margin: 0 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block-cakes__quote_size_m {
+    font-size: 24px;
+    line-height: 30px;
+    color: #a47d5e;
+}
+
+.block-cakes__quote {
+    width: 245px;
+    margin: 0 auto;
+}
+
+.header-menu__list {
+    font-size: 0;
+}
+
+
+
+
+
+

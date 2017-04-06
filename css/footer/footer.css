@@ -1,0 +1,39 @@
+.footer {
+    background: #fdfcfa;
+    text-align: center;
+    padding: 100px 70px;
+}
+
+.footer-menu {
+    border-top: 1px solid #c2beba;
+    border-bottom: 1px solid #c2beba;
+    padding: 30px;
+}
+
+.footer-menu, .footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-menu__link_size_xl {
+    font-size: 30px;
+    color: #3f3d38;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.footer-menu__link_size_s {
+    color: #3f3d38;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.footer-menu__link {
+    padding-left: 35px;
+}
+
+.footer-logo {
+    margin: 0 7px;
+}

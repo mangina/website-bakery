@@ -1,0 +1,176 @@
+.block-pancakes {
+    background: #535355 url(../../img/pancakes-bgd.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 140px 0 108px;
+}
+
+.block-pancakes-container {
+    margin-left: 95px;
+    position: relative;
+}
+
+.block-pancakes__header_size_l {
+    font-size: 48px;
+    color: #56534c;
+}
+
+.block-pancakes__header-description_size_s {
+    font-size: 14px;
+    color: #a47d5e;
+    text-transform: uppercase;
+}
+
+.block-pancakes__description_size_xs {
+    font-size: 14px;
+    color: #56534c;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.block-pancakes__text {
+    position: relative;
+    left: -4px;
+    background: #fff url(../../img/pancakes-windmill.png) no-repeat scroll right bottom;
+    display: inline-block;
+    vertical-align: top;
+    height: 392px;
+    padding: 80px 64px 40px;
+}
+
+.block-pancakes__img {
+    position: relative;
+    display: inline-block;
+}
+
+.block-pancakes__header {
+    margin-bottom: 10px;
+}
+
+.block-pancakes__header-description {
+    margin-bottom: 70px;
+}
+
+.block-pancakes__description {
+    margin-bottom: 105px;
+    width: 405px;
+}
+
+.block-pancakes__img-pancake {
+    background: url(../../img/pancakes-img.png) no-repeat scroll left top transparent;
+    width: 418px;
+    height: 514px;
+}
+
+.block-pancakes__products {
+    background: #fff url(../../img/pancakes-wind.png) no-repeat scroll right top;
+    height: 132px;
+    width: 200px;
+    text-align: center;
+    padding: 34px 0;
+    position: absolute;
+    top: -18%;
+    right: 7%;
+    -webkit-box-shadow: 0px 0px 74px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 74px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 74px -12px rgba(0,0,0,0.75);
+}
+
+.block-pancakes__title_size_m {
+    font-size: 18px;
+    color: #a47d5e;
+    text-transform: uppercase;
+}
+
+.block-pancakes__count_size_xl {
+    font-size: 92px;
+    color: #dfc691;
+}
+
+.block-pancakes__title-description_size_s {
+    font-size: 18px;
+    color: #979285;
+}
+
+.block-pancakes__count {
+    margin: 8px 0;
+}
+
+.block-pancakes__arrow-left,
+.block-pancakes__arrow-right,
+.block-pancakes__slider-img{
+    display: inline-block;
+}
+
+.block-pancakes__slider-img {
+    margin: 0 15px;
+}
+
+.block-pancakes__slider-img_type_block {
+    display: block;
+}
+
+.block-pancakes__arrow-left,
+.block-pancakes__arrow-right {
+    vertical-align: middle;
+    height: 110px;
+}
+
+.block-pancakes__block-size {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.block-pancakes__rating {
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8%;
+}
+.block-pancakes__rating-input {
+    position: absolute;
+    left: 0;
+    top: -50px;
+}
+.block-pancakes__rating-star {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../../img/star.png') 0 -20px;
+}
+.block-pancakes__rating-star:hover {
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+.block-pancakes__rating-star:hover,
+.block-pancakes__rating-star:hover ~ .block-pancakes__rating-star,
+.block-pancakes__rating-input:checked ~ .block-pancakes__rating-star {
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+.block-pancakes__img-pancake:hover ~ .block-pancakes__rating,
+.block-pancakes__rating:hover  {
+    display: inline-block;
+}
+
+.block-pancakes__slider-wrapper {
+    display: inline-block;
+    width: 360px;
+    overflow: hidden;
+    position: relative;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.block-pancakes__slider-container {
+    width: 740px;
+    position: absolute;
+}
+
+.block-pancakes__arrow-left, .block-pancakes__arrow-right {
+    cursor: pointer;
+}

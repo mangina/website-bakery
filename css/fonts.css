@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Scriptina;
+    src: url(../fonts/scriptina-webfont.eot);
+    src: url(../fonts/scriptina-webfont.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/scriptina-webfont.svg),
+    url(../fonts/scriptina-webfont.woff),
+    url(../fonts/scriptina-webfont.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: AlegreyaRegular;
+    src: url(../fonts/alegreya-regular-webfont.eot);
+    src: url(../fonts/alegreya-regular-webfont.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/alegreya-regular-webfont.svg),
+    url(../fonts/alegreya-regular-webfont.woff),
+    url(../fonts/alegreya-regular-webfont.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: AlegreyaBold;
+    src: url(../fonts/alegreya-bold-webfont.eot);
+    src: url(../fonts/alegreya-bold-webfont.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/alegreya-bold-webfont.svg),
+    url(../fonts/alegreya-bold-webfont.woff),
+    url(../fonts/alegreya-bold-webfont.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/proximanova-webfont.eot);
+    src: url(../fonts/proximanova-webfont.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/proximanova-webfont.svg),
+    url(../fonts/proximanova-webfont.woff),
+    url(../fonts/proximanova-webfont.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.header-menu__list_font_type_alegreya,
+.block-cakes__title-gallery_font_type_alegreya,
+.block-cakes__name_font_type_alegreya,
+.block-breakfast__description-price_font_type_alegreya,
+.footer_font_type_alegreya {
+    font-family: AlegreyaRegular, serif;
+}
+
+.header-menu-caption__descriptrion_font_type_proximanova,
+.block-cakes__description_font_type_proximanova,
+.block-pancakes__description_font_type_proximanova,
+.block-breakfast__description_font_type_proximanova,
+.block-breakfast__text-description_font_type_proximanova,
+.block-sandwich__title-description_font_type_proximanova{
+    font-family: ProximaNova, serif;
+}
+
+.header-menu__logo_font_type_scriptina,
+.block-cakes__quote_font_type_scriptina,
+.footer-logo_font_type_scriptina{
+    font-family: Scriptina, serif;
+}
+
+.header-menu-caption__title_font_type_lora {
+    font-family: 'Lora', serif;
+}
+
+.block-cakes__header_font_type_alegreya-bold,
+.block-cakes__header-description_font_type_alegreya-bold,
+.block-pancakes__header_font_type_alegreya-bold,
+.block-pancakes__header-description_font_type_alegreya-bold,
+.block-cakes__post_font_type_alegreya-bold,
+.block-pancakes__products_font_type_alegreya-bold,
+.block-breakfast_font_type_alegreya-bold,
+.block-sandwich_font_type_alegreya-bold,
+.block-sandwich__info_font_type_alegreya-bold{
+    font-family: AlegreyaBold, serif;
+}
+
+.block-cakes__quotes_font_type_TimesNewRoman {
+    font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+}
